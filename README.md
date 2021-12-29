@@ -3,7 +3,7 @@
 This is a visualisation layer of *Modern Data Stack for All* –
 [Apache Superset](https://superset.apache.org/) hosted on
 [Heroku](https://dashboard.heroku.com/). The ELT part of the stack
-is to be found in [mds4all-elt](https://github.com/one-data-cookie/mds4all-elt).
+is to be found in [`mds4all-elt`](https://github.com/one-data-cookie/mds4all-elt).
 
 ## Setup
 
@@ -11,6 +11,7 @@ is to be found in [mds4all-elt](https://github.com/one-data-cookie/mds4all-elt).
 # Set up basics
 $ pip install apache-superset
 $ pip install psycopg2
+$ pip install pybigquery # for BigQuery connection
 $ pip freeze > requirements.txt # or just limit to installed above
 $ echo "web: superset db upgrade" > Procfile
 $ echo "python-3.8.2" > runtime.txt
@@ -44,15 +45,12 @@ $ heroku logs --tail # check for errors
 
 # Open app
 $ heroku open
-# add pybigquery to requirements.txt for BigQuery connections
 ```
 
 ## Limitations
 - Sleeps after 30 mins of inactivity
 - 512 MB RAM
-- Only 4 workers
-- Running on Gunicorn server
+- 4 workers
+- Gunicorn server
 - No cache (like Redis)
-- Postgres database:
-  - 10K rows
-  - 20 MB
+- Database of 10K rows and 20 MB
