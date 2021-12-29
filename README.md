@@ -54,7 +54,7 @@ $ heroku open
 ```
 
 ## Limitations
-- Sleeps after 30 mins of inactivity
+- Sleep after 30 mins of inactivity
 - 512 MB RAM
 - 4 workers
 - Gunicorn server
