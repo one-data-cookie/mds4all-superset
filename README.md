@@ -1,17 +1,18 @@
 # mds4all
 Minimalistic and free *m*odern *d*ata *s*tack, hence *for all*.
 
-[`one-data-cookie/mds4all-elt`](https://github.com/one-data-cookie/mds4all-elt):
-- Warehousing: [**Google BigQuery**](https://cloud.google.com/bigquery/)
-- Orchestrating: [**Github Actions**](https://github.com/features/actions)
-- Ingesting: [**Meltano**](https://meltano.com/)
-- Transforming: [**dbt**](https://www.getdbt.com/)
-- Cataloging: [**dbt docs**](https://www.getdbt.com/docs/) on [**GitHub Pages**](https://pages.github.com/)
+- [`one-data-cookie/mds4all-elt`](https://github.com/one-data-cookie/mds4all-elt):
+  - Warehousing: [Google BigQuery](https://cloud.google.com/bigquery/)
+  - Orchestrating: [Github Actions](https://github.com/features/actions)
+  - Ingesting: [Meltano](https://meltano.com/)
+  - Transforming: [dbt](https://www.getdbt.com/)
+  - Cataloging: [dbt docs](https://www.getdbt.com/docs/) on [GitHub Pages](https://pages.github.com/)
 
-[`one-data-cookie/mds4all-superset`](https://github.com/one-data-cookie/mds4all-superset).
-- Visualising: [**Superset**](https://superset.apache.org/) on [**Heroku**](https://dashboard.heroku.com/)
+- [`one-data-cookie/mds4all-superset`](https://github.com/one-data-cookie/mds4all-superset).
+  - Visualising: [Superset](https://superset.apache.org/) on [Heroku](https://dashboard.heroku.com/)
 
-## Setup for `mds4all-superset`
+# mds4all-superset
+## Setup
 ```shell
 # Set up basics
 $ pip install apache-superset
@@ -52,7 +53,7 @@ $ heroku logs --tail # check for errors
 $ heroku open
 ```
 
-## Limitations of `mds4all-superset`
+## Limitations
 - Sleeps after 30 mins of inactivity
 - 512 MB RAM
 - 4 workers
@@ -60,7 +61,7 @@ $ heroku open
 - No cache (like Redis)
 - Database storage with 10K rows and 20 MB
 
-## Inspiration for `mds4all-superset`
+## Inspiration
 - [`Chizzy-codes/NBA_Dashboard`](https://github.com/Chizzy-codes/NBA_Dashboard)
 - [`dugjason/superset-on-heroku`](https://github.com/dugjason/superset-on-heroku)
 - [`zi-nt/superset-on-heroku`](https://github.com/zi-nt/superset-on-heroku)
