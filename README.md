@@ -1,9 +1,9 @@
 # mds4all-superset
 
-This is a visualisation layer of *Modern Data Stack for All* –
+This is a visualisation layer of *Modern Data Stack for All (`mds4all`)* –
 [Apache Superset](https://superset.apache.org/) hosted on
-[Heroku](https://dashboard.heroku.com/). The ELT part of the stack
-is to be found in [`mds4all-elt`](https://github.com/one-data-cookie/mds4all-elt).
+[Heroku](https://dashboard.heroku.com/). The ELT part of the stack is to be found
+in [`one-data-cookie/mds4all-elt`](https://github.com/one-data-cookie/mds4all-elt).
 
 ## Setup
 
@@ -54,3 +54,8 @@ $ heroku open
 - Gunicorn server
 - No cache (like Redis)
 - Database of 10K rows and 20 MB
+
+## Inspiration
+- [`Chizzy-codes/NBA_Dashboard`](https://github.com/Chizzy-codes/NBA_Dashboard)
+- [`dugjason/superset-on-heroku`](https://github.com/dugjason/superset-on-heroku)
+- [`zi-nt/superset-on-heroku`](https://github.com/zi-nt/superset-on-heroku)
