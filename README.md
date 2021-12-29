@@ -12,6 +12,8 @@ Minimalistic and free *m*odern *d*ata *s*tack, hence *for all*.
   - Visualising: [Superset](https://superset.apache.org/) on [Heroku](https://dashboard.heroku.com/)
 
 # mds4all-superset
+Visualisation layer of `mds4all`.
+
 ## Setup
 ```shell
 # Set up basics
