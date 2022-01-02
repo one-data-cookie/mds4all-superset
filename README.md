@@ -3,7 +3,7 @@ Minimalistic and free **m**odern **d**ata **s**tack, hence **for all**.
 
 - [`one-data-cookie/mds4all-elt`](https://github.com/one-data-cookie/mds4all-elt):
   - Warehousing: [Google BigQuery](https://cloud.google.com/bigquery/)
-  - Orchestrating: [Github Actions](https://github.com/features/actions)
+  - Orchestrating: [GitHub Actions](https://github.com/features/actions)
   - Ingesting: [Meltano](https://meltano.com/)
   - Transforming: [dbt](https://www.getdbt.com/)
   - Cataloging: [dbt docs](https://www.getdbt.com/docs/) on [GitHub Pages](https://pages.github.com/)
