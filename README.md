@@ -1,3 +1,7 @@
+This part of `mds4all` is archived for now as it is built on Heroku who [cancelled their free tier](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/) in 2022.
+
+---
+
 # mds4all
 Minimalistic and free **m**odern **d**ata **s**tack, hence **for all**.
 
